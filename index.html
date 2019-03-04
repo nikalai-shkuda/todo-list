@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>Todo</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+					<form action="" class="enter">
+						<input type="text" id="input-title" class="enter__title" placeholder="Enter title" >
+						<input type="text" id="input-task" class="enter__text" placeholder="Enter task" >
+						<button id="add" class="enter__add">Add</button>
+					</form>
+				</header>
+				<div class="container">
+					<button class="sort-priority" id="sort-priority">Sort</button>
+					<ul class="todo" id="unfinished"></ul>
+					<ul class="todo" id="finished"></ul>
+				</div>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
